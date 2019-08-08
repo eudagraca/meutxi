@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/catID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.github.ivbaranov.mli.MaterialLetterIcon
+            android:id="@+id/mli"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="10dp"
+            app:mli_initials="false"
+            app:mli_initials_number="1"
+            app:mli_letter=""
+            app:mli_letter_color="@color/md_white_1000"
+            app:mli_letter_size="16"
+            app:mli_letters_number="1"
+            app:mli_shape_color="@color/colorAccent"
+            app:mli_shape_type="circle"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="text"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/material_drawer_selected_legacy" />
+
+</LinearLayout>

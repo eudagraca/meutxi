@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">meu TXI</string>
+    <string name="inicio_de_sessao">INÍCIO DE SESSÃO</string>
+    <string name="criar_uma_conta">CRIE UMA CONTA</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="app_id">1KGW2VmIQTmqPWSn2no1QU80LGvRlXqFW9i4i9jR</string>
+    <string name="client_id">gV5mPgTR8kmfZwoevzkWL0ZPM8UxNkP4HWtkUxMZ</string>
+    <string name="server">https://parseapi.back4app.com</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lancamentos">LancamentosActivity</string>
+    <string name="receita">receita</string>
+    <string name="despesa">despesa</string>
+    <string name="lancamentos">Lançamentos</string>
+    <string name="e_mail">e-mail</string>
+    <string name="senha">senha</string>
+    <string name="iniciar_a_sessao">INICIAR A SESSÃO</string>
+    <string name="descricao">Descrição</string>
+    <string name="categoria">Categoria</string>
+    <string name="data">Data</string>
+    <string name="guardar">Guardar</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="foto_de_perfil">Foto de perfil</string>
+    <string name="criar_conta">CRIAR CONTA</string>
+    <string name="nome">Nome</string>
+    <string name="registar_despesa">Registar despesa</string>
+    <string name="registar_receita">Registar receita</string>
+    <string name="myUID">myUID</string>
+    <string name="icone_da_categoria">ícone da categoria</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sair_snackbar">Clique denovo para sair</string>
+    <string name="equilibrio">Equilibrio</string>
+    <string name="renda">Renda</string>
+    <string name="mes_corrente">Mês corrente</string>
+    <string name="meu_perfil">Meu Perfil</string>
+    <string name="esqueci_senha">Esqueí minha Senha</string>
+    <string name="nova_senha">Nova Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="dados_de_acesso">Dados de acesso</string>
+    <string name="trocar_senha">Trocar senha</string>
+    <string name="senha_actual">Senha actual</string>
+    <string name="alterar">Alterar</string>
+    <string name="alterar_receita">Alterar receita</string>
+    <string name="alterar_despesa">Alterar despesa</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="saldo_no_mes">Meu saldo do mês</string>
+    <string name="sem_registos_disponiveis">Nenhum registo</string>
+    <string name="receitas">Receitas</string>
+    <string name="despesas">Despesas</string>
+    <string name="balanco">Balanço</string>
+    <string name="zero">0</string>
+
+    <item name="fab_action1" type="id" />
+    <item name="fab_action2" type="id" />
+    <item name="fab_action3" type="id" />
+    <item name="fab_action4" type="id" />
+
+</resources>

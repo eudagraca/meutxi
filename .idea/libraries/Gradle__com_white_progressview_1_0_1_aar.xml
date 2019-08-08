@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.white:progressview:1.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efe9c0b69d2c75c653d8562c8de5f26e/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efe9c0b69d2c75c653d8562c8de5f26e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efe9c0b69d2c75c653d8562c8de5f26e/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.white/progressview/1.0.1/54f3d6122dc1e44da5e332108e420d31dc3ea4ed/progressview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

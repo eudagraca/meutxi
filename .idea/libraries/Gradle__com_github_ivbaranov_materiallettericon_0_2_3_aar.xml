@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ivbaranov:materiallettericon:0.2.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf84f41dd41d893e01db4a64fbbf7488/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf84f41dd41d893e01db4a64fbbf7488/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ivbaranov/materiallettericon/0.2.3/38374172dba52970673fcbf5ce87514235a1e293/materiallettericon-0.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

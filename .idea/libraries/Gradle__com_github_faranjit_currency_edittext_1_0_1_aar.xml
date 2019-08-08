@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.faranjit:currency-edittext:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a17696d267c5a430ca1933a33c3d748d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a17696d267c5a430ca1933a33c3d748d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.faranjit/currency-edittext/1.0.1/c4a02db38578739a9542f2e64f94457166a25eea/currency-edittext-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

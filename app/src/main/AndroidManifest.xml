@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.account">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoBar"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <receiver android:name="broadcast.NetworkCheack">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".FireService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher_round" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/md_green_600" />
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/server" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/client_id" />
+        <meta-data
+            android:name="com.parse.push.gcm_sender_id"
+            android:value="id:INSERT_YOUR_GCM_SENDER_ID" />
+
+        <service
+            android:name="com.parse.fcm.ParseFirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.parse.fcm.ParseFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".views.Splash"
+            android:theme="@style/AppTheme.NoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.ReportsActivity" />
+        <activity
+            android:name=".views.PerfilActivity_"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.RecoverActivity_"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.RegisterMonthActivity_"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.LancamentosActivity_"
+            android:theme="@style/AppTheme.NoBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.MainActivity_"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.UserRegisterActivity_"
+            android:theme="@style/AppTheme.NoBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".views.LoginActivity_"
+            android:theme="@style/AppTheme.NoBar"
+            android:windowSoftInputMode="stateHidden"></activity>
+    </application>
+
+</manifest>

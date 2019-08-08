@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/start"
+        android:icon="@drawable/ic_format_list"
+        android:title="Início" />
+
+    <item
+        android:id="@+id/estalisticas"
+        android:icon="@drawable/ic_format_list"
+        android:title="Estatísticas" />
+
+    <item
+        android:id="@+id/registers"
+        android:icon="@drawable/ic_format_list"
+        android:title="Registos" />
+
+    <item
+        android:id="@+id/metas"
+        android:icon="@drawable/ic_format_list"
+        android:title="Metas" />
+</menu>

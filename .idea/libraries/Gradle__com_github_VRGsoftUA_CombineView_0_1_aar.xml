@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.VRGsoftUA:CombineView:0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10227b81940cc04487300d8760d29b1d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10227b81940cc04487300d8760d29b1d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.VRGsoftUA/CombineView/0.1/d0cc5bc64994055a3230380268fc0069eee179d6/CombineView-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

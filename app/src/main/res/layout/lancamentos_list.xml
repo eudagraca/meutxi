@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:id="@+id/lancamento_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.github.ivbaranov.mli.MaterialLetterIcon
+            android:id="@+id/mli_lancamento"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/ll_right"
+            android:layout_alignBottom="@+id/ll_right"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:mli_letter_size="18"
+            app:mli_letters_number="1"
+            app:mli_shape_color="@color/colorPrimary" />
+
+        <LinearLayout
+            android:id="@+id/ll_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/mli_lancamento"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_categoria_lancamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impostos e taxas" />
+
+            <TextView
+                android:id="@+id/tv_data_lancamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="05-06-2019" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ll_left"
+            android:layout_alignBottom="@+id/ll_left"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:padding="5dp"
+            tools:ignore="RelativeOverlap">
+
+            <TextView
+                android:id="@+id/mT_money_lancamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_pago_recebido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="pago" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/material_drawer_divider" />
+
+</LinearLayout>

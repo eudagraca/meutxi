@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">151358262383-smnnhvpvgpk7rk4l97kijqps7bp503sj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://wallet-ee846.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">151358262383</string>
+    <string name="google_api_key" translatable="false">AIzaSyAJ9pkGVB8XD7ZQ3wHnIE5i1Ma0ZAL7OLA</string>
+    <string name="google_app_id" translatable="false">1:151358262383:android:f03e106cfce1519f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAJ9pkGVB8XD7ZQ3wHnIE5i1Ma0ZAL7OLA</string>
+    <string name="google_storage_bucket" translatable="false">wallet-ee846.appspot.com</string>
+    <string name="project_id" translatable="false">wallet-ee846</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ajithvgiri:search-dialog:v1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff46140e8ab4940fdfacbf24a2f3da2c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ff46140e8ab4940fdfacbf24a2f3da2c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ajithvgiri/search-dialog/v1.1/a6cc28eeef39d6fc3e11950d664ce660b5512006/search-dialog-v1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

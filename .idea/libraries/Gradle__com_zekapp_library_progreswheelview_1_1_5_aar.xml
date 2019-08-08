@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zekapp.library:progreswheelview:1.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/817e620ad655d892a0d2995547d69720/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/817e620ad655d892a0d2995547d69720/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zekapp.library/progreswheelview/1.1.5/7a73e631a380b2058e516cdb65edcc108d6f7f94/progreswheelview-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

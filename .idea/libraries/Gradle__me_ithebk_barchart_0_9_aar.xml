@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.ithebk:barchart:0.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f54bfe6de25ec3722e1da3886c1ec8be/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f54bfe6de25ec3722e1da3886c1ec8be/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.ithebk/barchart/0.9/59824c18fdf6d76e0db81cd7444d3ea72d120e09/barchart-0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

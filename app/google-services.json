@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "151358262383",
+    "firebase_url": "https://wallet-ee846.firebaseio.com",
+    "project_id": "wallet-ee846",
+    "storage_bucket": "wallet-ee846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151358262383:android:f03e106cfce1519f",
+        "android_client_info": {
+          "package_name": "com.account"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151358262383-tfspvnkipnghrtvovlbiksk5ds08skce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.account",
+            "certificate_hash": "4a713bab70935619ec676b61a31daa764bdcd80a"
+          }
+        },
+        {
+          "client_id": "151358262383-smnnhvpvgpk7rk4l97kijqps7bp503sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ9pkGVB8XD7ZQ3wHnIE5i1Ma0ZAL7OLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151358262383-smnnhvpvgpk7rk4l97kijqps7bp503sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

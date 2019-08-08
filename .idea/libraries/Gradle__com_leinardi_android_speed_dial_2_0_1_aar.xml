@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.leinardi.android:speed-dial:2.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61756fa5a4d0f082db3f9487c643844/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61756fa5a4d0f082db3f9487c643844/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a61756fa5a4d0f082db3f9487c643844/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leinardi.android/speed-dial/2.0.1/906f3ec1067db09a5dac7e7814724940b408ef67/speed-dial-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

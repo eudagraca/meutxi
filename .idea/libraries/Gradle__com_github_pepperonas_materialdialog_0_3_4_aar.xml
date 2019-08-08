@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pepperonas:materialdialog:0.3.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10d2da3fb900c6c3ed5e25547d688928/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10d2da3fb900c6c3ed5e25547d688928/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pepperonas/materialdialog/0.3.4/51156bfe68d45a952f906b1db8ca8809213a21ae/materialdialog-0.3.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
